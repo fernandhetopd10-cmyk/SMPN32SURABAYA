@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>SMPN 32 Surabaya</title>
+    <link rel="stylesheet" href="styles.css" />
+    <style>
+        .content-window {
+            display: none;
+        }
+        .content-window.active {
+            display: block;
+        }
+        nav ul li a.active {
+            font-weight: bold;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+<header>
+    <div class="container header-container">
+        <div class="header-left">
+            <img src="file:///C:/Users/Fernandhrto%20Putra/Documents/LOGO32.png" alt="Logo SMPN 32 Surabaya" class="logo" />
+            <h1>SMPN 32 Surabaya</h1>
+        </div>
+        <button class="menu-toggle" aria-label="Toggle menu">&#x2630;</button>
+        <nav>
+            <ul>
+                <li><a href="#" class="nav-link active" data-target="home">Beranda</a></li>
+                <li><a href="#" class="nav-link" data-target="profil">Profil</a></li>
+                <li><a href="#" class="nav-link" data-target="berita">Berita</a></li>
+                <li><a href="#" class="nav-link" data-target="kegiatan">Kegiatan</a></li>
+                <li><a href="#" class="nav-link" data-target="ekstrakulikuler">Ekstrakulikuler</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<main>
+    <section id="home" class="content-window active">
+        <section class="hero">
+            <div class="hero-image hero-image-1"></div>
+            <div class="hero-image hero-image-2"></div>
+            <div class="container hero-text">
+                <h2>Selamat Datang di SMPN 32 Surabaya</h2>
+                <p>Sekolah Menengah Pertama Negeri 32 Surabaya - Sekolah Ramah Anak</p>
+            </div>
+        </section>
+        <section>
+            <article>
+                <h3>Kepala Sekolah</h3>
+                <h1> Kepala Sekolah dari SMPN 32 Surabaya ialah Pak Moh. Bisri, S.pd,</h1> 
+             <div> 
+                    <img src="file:///C:/Users/Fernandhrto%20Putra/Documents/pak bisri.png" alt="Foto Kepsek">
+             </div>
+                <ul>
+                </ul>
+            </article>
+        </section>
+    </section>
+
+    <section id="profil" class="content-window">
+        <section class="hero">
+            <div class="hero-image" style="background-image: url('akusuka.JPG'); filter: brightness(0.4);"></div>
+            <div class="container hero-text">
+                <h2>Profil Sekolah</h2>
+                <p>Sekolah Menengah Pertama Negeri 32 Surabaya - Sekolah Ramah Anak</p>
+            </div>
+        </section>
+        <section class="ProfilSekolah" style="text-align: center;">
+            <article>
+                <h1 style="font-size: 3em;">Profil Sekolah</h1>
+                <p style="font-size: 1.2em;">SMPN 32 Surabaya adalah sekolah menengah pertama yang berkomitmen untuk memberikan pendidikan berkualitas dan membentuk karakter siswa yang unggul
+                <p style="font-size: 1.2em;">Lihat nanti, gatau visi misi atau bagaimana</p>
+                </article>
+        </section>
+    </section>
+
+    <section id="berita" class="content-window">
+        <section class="hero">
+            <div class="hero-image hero-image-1"></div>
+            <div class="hero-image hero-image-2"></div>
+            <div class="container hero-text">
+                <h2>Berita</h2>
+                <p>Informasi berita terbaru akan ditampilkan di sini.</p>
+            </div>
+        </section>
+        <section class="content container">
+            <article>
+                <h3>Berita</h3>
+                <p>Informasi berita terbaru akan ditampilkan di sini.</p>
+            </article>
+        </section>
+    </section>
+
+    <section id="kegiatan" class="content-window">
+        <section class="hero">
+            <div class="hero-image hero-image-1"></div>
+            <div class="hero-image hero-image-2"></div>
+            <div class="container hero-text">
+                <h2>Kegiatan</h2>
+                <p>Informasi mengenai kegiatan ekstrakurikuler dan acara sekolah akan ditampilkan di sini.</p>
+            </div>
+        </section>
+        <section class="content container">
+            <article>
+                <h3>Kegiatan</h3>
+                <p>Informasi mengenai kegiatan ekstrakurikuler dan acara sekolah akan ditampilkan di sini.</p>
+            </article>
+        </section>
+    </section>
+
+    <section id="kontak" class="content-window">
+        <section class="hero">
+            <div class="hero-image"></div>
+            <div class="container hero-text">
+                <h2>Kontak</h2>
+                <p>Informasi kontak sekolah dapat ditemukan di sini.</p>
+            </div>
+        </section>
+        <section class="content container">
+            <article>
+                <h3>Kontak</h3>
+                <p>Informasi kontak sekolah dapat ditemukan di sini.</p>
+            </article>
+        </section>
+    </section>
+
+    <section id="ekstrakulikuler" class="content-window">
+        <section class="hero">
+            <div class="hero-image hero-image-1"></div>
+            <div class="hero-image hero-image-2"></div>
+            <div class="container hero-text">
+                <h2>Ekstrakulikuler</h2>
+                <p>Informasi mengenai kegiatan ekstrakulikuler akan ditampilkan di sini.</p>
+            </div>
+        </section>
+        <section class="content container">
+            <article>
+                <h3>Ekstrakulikuler</h3>
+                <p>Informasi mengenai kegiatan ekstrakulikuler akan ditampilkan di sini.</p>
+            </article>
+        </section>
+    </section>
+</main>
+
+<footer>
+    <div class="container">
+        <p>&copy; 2025 SMPN 32 Surabaya. Semua hak cipta dilindungi.</p>
+    </div>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
